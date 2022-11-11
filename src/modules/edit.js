@@ -1,6 +1,6 @@
-import renderTodos from './todo.js';
-import getTodos from './getTask.js';
-import saveTodo from './save.js';
+import renderTodos from './todo';
+import getTodos from './getTask';
+import saveTodo from './save';
 
 const updateTodo = () => {
   const treeDotIcons = document.querySelectorAll('.three-dot-icon');
@@ -46,7 +46,7 @@ const updateTodo = () => {
           const index = treeDotIcon.id;
           updatedTodo = {
             description: updatedTodo.description,
-            completed: updatedTodo.completed,
+            completed: todos[index - 1].completed,
             index: Number(index),
           };
 
