@@ -1,6 +1,6 @@
 /* eslint import/no-cycle: [2, { maxDepth: 1 }] */
-import saveTodo from './save';
-import getTodos from './getTask';
+import saveTodo from './save.js';
+import getTodos from './getTask.js';
 
 const validated = ({ description }, todos) => {
   description = description.value.trim();
@@ -16,7 +16,6 @@ const addTodo = (createTodoForm) => {
   todos.push(todo);
   if (todo === null) return;
   saveTodo(todos);
-
 };
 
 export default addTodo;

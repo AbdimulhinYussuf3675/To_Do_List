@@ -1,6 +1,6 @@
-import renderTodos from './todo';
-import saveTodo from './save';
-import getTodos from './getTask';
+import renderTodos from './todo.js';
+import saveTodo from './save.js';
+import getTodos from './getTask.js';
 
 const deleteTodo = () => {
   const trashIcons = document.querySelectorAll('.trash-icon');

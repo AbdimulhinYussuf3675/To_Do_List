@@ -1,6 +1,6 @@
 import './style.css';
-import addTodo from './modules/add';
-import renderTodos from './modules/todo';
+import addTodo from './modules/add.js';
+import renderTodos from './modules/todo.js';
 
 const createTodoForm = document.querySelector('#todo-form');
 renderTodos();

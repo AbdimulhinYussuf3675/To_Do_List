@@ -1,6 +1,6 @@
-import renderTodos from './todo';
-import getTodos from './getTask';
-import saveTodo from './save';
+import renderTodos from './todo.js';
+import getTodos from './getTask.js';
+import saveTodo from './save.js';
 
 const updateTodo = () => {
   const treeDotIcons = document.querySelectorAll('.three-dot-icon');
@@ -54,7 +54,6 @@ const updateTodo = () => {
             if (todo.index === Number(index)) todo = updatedTodo;
             return todo;
           });
-          console.log(updatedTodos);
           saveTodo(updatedTodos);
           renderTodos();
         };

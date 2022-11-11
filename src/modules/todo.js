@@ -1,6 +1,6 @@
-import deleteTodo from './delete';
-import getTodos from './getTask';
-import updateTodo from './edit';
+import deleteTodo from './delete.js';
+import getTodos from './getTask.js';
+import updateTodo from './edit.js';
 
 const renderTodos = () => {
   const todoListContainer = document.querySelector('.todo-list');
