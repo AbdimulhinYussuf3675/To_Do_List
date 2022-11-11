@@ -2,7 +2,7 @@ import clearCompleted from './complete';
 import markCompletedTodo from './clear';
 import deleteTodo from './delete';
 import getTodos from './getTask';
-import updateTodo from './edit'
+import updateTodo from './edit';
 
 const renderTodos = () => {
   const todoListContainer = document.querySelector('.todo-list');
