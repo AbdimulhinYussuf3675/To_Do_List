@@ -37,16 +37,16 @@ svg {
   cursor: pointer;
 }
 
-#todo-form {
-  width: 100%;
-}
-
 .checkbox {
   cursor: pointer;
 }
 
 .trash-icon {
   display: none;
+}
+
+#todo-form {
+  width: 100%;
 }
 
 #todo-form input {
@@ -66,12 +66,12 @@ svg {
 }
 
 .todo-title,
-.delete,
+.todo-clear,
 .todo-input {
   padding-block: 13px;
 }
 
-.delete {
+.todo-clear {
   background-color: #eee;
   color: gray;
   text-align: center;
